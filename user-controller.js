@@ -4,10 +4,10 @@ const config = require('./config.json');
 const jwt = require('jsonwebtoken');
 const Sequelize = require('sequelize');
 
-// const sequelize = new Sequelize('XMOqYUafrD', 'roXMOqYUafrDot', 'tAw2WuKsIH', {
-//   host: 'remotemysql.com',
-const sequelize = new Sequelize('mydb', 'root', '', {
-  host: 'localhost',
+const sequelize = new Sequelize('XMOqYUafrD', 'XMOqYUafrD', 'tAw2WuKsIH', {
+  host: 'remotemysql.com',
+// const sequelize = new Sequelize('mydb', 'root', '', {
+//   host: 'localhost',
   dialect: 'mysql'
 });
 
