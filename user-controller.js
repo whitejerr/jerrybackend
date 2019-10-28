@@ -4,7 +4,7 @@ const config = require('./config.json');
 const jwt = require('jsonwebtoken');
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('mydb', 'root', '', {
+const sequelize = new Sequelize('XMOqYUafrDb', 'root', '', {
   host: 'localhost',
   dialect: 'mysql'
 });
